@@ -19,7 +19,7 @@ try:
         if input_state == False:
             bot.sendMessage(chat_id=chatID, text="Doorbell is ringing")
             system("omxplayer -o alsa /home/pi/Music/doorbell-1.wav")
-            #sleep(1.0)
+            sleep(2.0)
             continue
 
 finally:
