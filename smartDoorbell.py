@@ -1,4 +1,3 @@
-#!/usr/bin/env python2.7
 import telegram
 import RPi.GPIO as GPIO
 from time import sleep
